@@ -1,0 +1,10 @@
+使用图片：Fig.S6 BCDE
+
+现在的图片是导出数据后小娟姐另外画的
+
+时间选取：当前cue的baseline，ejaculation，ejaculation开始1分钟后的每1分钟，不足一分钟不计入，以及（如果有）之后的base
+
+细胞选取：所有ejaculation细胞，根据ejaculation开始后的1到2分钟的auc与0.7的关系分为persistent细胞和transient细胞
+
+输出auc画DE
+输出persistent/transient细胞分类结合base_pre_analysis画BC
