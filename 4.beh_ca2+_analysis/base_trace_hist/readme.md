@@ -1,7 +1,1 @@
-使用图片：Fig.S6 A
-
-时间选取：第一个cue前base全长（但是trace只呈现1分钟）和ejaculation开始后的1到2分钟
-细胞选取：所有ejaculation细胞，根据ejaculation开始后的1到2分钟的auc与0.7的关系分为persistent细胞和transient细胞
-
-以细胞为单位画了两段各自的trace和归一化到该细胞整根trace的最大值的直方图（因为选取了所有ejaculation细胞，所以不需要归一化到ejaculation之前的一段时间）
-
+Used fig：Fig.S6 A
