@@ -20,7 +20,13 @@ This part of code focuses on the behavioural differences between experiment grou
 
 This part of code focuses on the relationship between behavior datasets and calcium imaging signals. We introduce auROC to determine whether the neuronal activities during such behavior are activating or inhibiting.
 
-We combined two form of data and generated *_auc_0.3.m 
+We combined two form of data and generated intermediate data as follow:
+- *_auc_0.30.mat and *_auc_0.70.mat includes auROCs, p values, and so on, while 0.30 and 0.70 are the auROC threshold of inhibition or activation.
+- *_combined_trace.mat includes neuron id and raw trace.
+- *_den_deconv.mat was includes denoised and deconvolved trace and detected events.
+- *_neuron.mat includes gender, frame rate of videos, and behavior data.
+
+All the specific analysis in 3.beh_ca2+_analysis
 
 
 
