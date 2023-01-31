@@ -26,12 +26,15 @@ We combined two form of data and generated intermediate data as follow:
 - *_den_deconv.mat was includes denoised and deconvolved trace and detected events.
 - *_neuron.mat includes gender, frame rate of videos, and behavior data.
 
-All the specific analysis in 3.beh_ca2+_analysis
+All the code in 4.beh_ca2+_analysis must need outputs above to do futher analysis.
 
+## 3.neuron_spacial_plot
+ 
+This part of code is a little tool to locate neurons in microscopic field of vision and compare the distribution of different subpopulation.
 
+## 4.beh_ca2+_analysis
 
-
-
+This part of code focuses on the common or different neuronal activities among behaviors, animals, genotypes by provding visualized heatmaps and traces, statistics bar/box plots and so on.
 
 
 
