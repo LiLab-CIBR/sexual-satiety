@@ -1,6 +1,6 @@
 
 %%
-% fig.S5 DG
+% fig.S8 E
 
 %%
 
