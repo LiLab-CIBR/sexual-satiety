@@ -1,10 +1,15 @@
 
+%%
+% fig.S5 DG
+
+%%
+
 clear;
 % close all;
 
 
-%% µ¥¸öÅÜ
-fvstrans.result_folder = 'E:\wupeixuan\auc_plot\data\dzyimg\miniscope data plot\Figure1-3\fig2data\5';%Â·¾¶
+%% ÂµÂ¥Â¸Ã¶Ã…Ãœ
+fvstrans.result_folder = 'E:\wupeixuan\auc_plot\data\dzyimg\miniscope data plot\Figure1-3\fig2data\5';%Ã‚Â·Â¾Â¶
 fvstrans.animallist = {'St181','St1823'};%{'Esr222','Esr229','Esr230','Esr252'} {'St181','St1823'}
 fvstrans.transitioncalctime = 10;%5,10 
 fvstrans.durtime = 30;%30,60,90,120
@@ -16,12 +21,12 @@ fvstrans.datasort = 'raw';%{'raw','zscore','sigma','decdata'};
 
 FvsTrans_core(fvstrans)
 
-%% È«¶¼ÅÜ
+%% ÃˆÂ«Â¶Â¼Ã…Ãœ
 animallist = {{'Esr222','Esr229','Esr230'},{'St181','St1823'}};
 transitioncalctime = {10};
 durtime = {30,60,90,120};
 datasort = {'raw'};
-fvstrans.result_folder = 'E:\wupeixuan\auc_plot\data\dzyimg\miniscope data plot\Figure1-3\fig2data\5';%Â·¾¶
+fvstrans.result_folder = 'E:\wupeixuan\auc_plot\data\dzyimg\miniscope data plot\Figure1-3\fig2data\5';%Ã‚Â·Â¾Â¶
 fvstrans.is_merge_sniff = true;
 fvstrans.is_del_1_trans = true;
 
